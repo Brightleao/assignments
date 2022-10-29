@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css" />
+  </head>
+  <body>
+    <form action="success.html">
+      <div class="container">
+        <h1>Registration Page</h1>
+        <p>Fill the Registration form below to enter the competion</p>
+        <hr />
+        <label for="">
+          First Name:
+          <input type="text" required />
+          <br>
+          Last Name:
+          <input type="text" name="" id="text" required />
+          <br>
+          Phone Number:
+          <input type="tel" name="tel" id="tel" placeholder="+234" required />
+          <br>
+          Email:
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="@gmail.com"
+            required
+          />
+          <br>
+
+          Gender
+          <select name="gender" id="gender">
+            <option value="">select</option>
+            <option value="">Male</option>
+            <option value="">Female</option>
+            <option value="">Others</option>
+          </select>
+          <br>
+
+          D.O.B <input type="date" name="dob" id="dob" />
+          <br>
+
+
+          Favorite color
+          <select name="color" id="color">
+            <option value="">select</option>
+            <option value="">Red</option>
+            <option value="">Blue</option>
+            <option value="">Yellow</option>
+            <option value="">Orange</option>
+            <option value="">Brown</option>
+            <option value="">Green</option>
+            <option value="">Purple</option>
+            <option value="">Pink</option>
+            <option value="">Others</option>
+          </select>
+
+          <br>
+
+          Password <input type="password" name="psw" id="psw" /> 
+          <br>
+          Confirm password <input type="password" name="psw" id="psw" />
+        </label>
+        <hr />
+        <p>
+          By clicking submit, you agree to our
+          <a href="#" class="click">Terms and Condition</a>
+        </p>
+        <button class="btn">Submit</button>
+        <p>Already have an account <a href="login.html" class="click">Login Here</a></p>
+      </div>
+    </form>
+  </body>
+</html>
